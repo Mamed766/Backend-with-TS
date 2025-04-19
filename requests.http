@@ -5,3 +5,13 @@ GET {{url}}/employees/
 
 GET {{url}}/employees/ea9632842634asd
 ###
+
+POST {{url}}/employees/
+Content-Type: application/json
+
+{
+    "name": "John",
+    "position": "Manager",
+    "salary": 60000,
+    "other": "stuff"
+}
